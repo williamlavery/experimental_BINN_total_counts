@@ -1,0 +1,13 @@
+Complexity,Loss,Equation
+1,0.007593072,"0.11815604"
+4,0.002783361,"sqrt(x0) - x0"
+5,0.0027169602,"tanh(sqrt(x0) - x0)"
+6,0.002122286,"log(x0) * (x0 * -0.617287)"
+7,0.0018905782,"log(x0) * (-0.617287 * tanh(x0))"
+8,0.0012834173,"sqrt(log(x0 - log(x0))) * x0"
+9,0.0012243781,"sqrt(log(x0 - log(x0))) * tanh(x0)"
+10,0.0011913079,"(x0 - -0.024337256) * sqrt(log(x0 - log(x0)))"
+11,0.0006538441,"tanh(log(x0)) * ((x0 * (x0 * x0)) - x0)"
+13,0.0006140898,"tanh(tanh(exp(x0) * x0)) * sqrt(log(x0 - log(x0)))"
+14,0.0005549123,"tanh(tanh(tanh(x0 * exp(x0)))) * sqrt(log(x0 - log(x0)))"
+15,0.00055491226,"tanh(tanh(tanh(exp(log(x0) + x0)))) * sqrt(log(x0 - log(x0)))"
